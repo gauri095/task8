@@ -45,7 +45,7 @@ body {
 
 
 .menu-btn {
-    /* hidden on desktop */
+  
     display: none;
 
     background: none;
@@ -96,10 +96,6 @@ body {
 .menu-btn:focus + .mobile-menu {
     display: flex;   
 }
-
-/* =============================================
-   HERO SECTION
-   ============================================= */
 
 .hero {
     display: flex;
