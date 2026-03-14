@@ -109,7 +109,7 @@ body {
     margin-bottom: 28px;
 }
 
-.cta-button {
+.book {
     padding: 12px 26px;
     background-color: #2563eb;
     color: #ffffff;
@@ -118,7 +118,7 @@ body {
     cursor: pointer;
 }
 
-.cta-button:hover {
+.book:hover {
     background-color: #1d4ed8;
 }
 
