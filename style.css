@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +16,6 @@ body {
     padding: 16px 32px;
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
-
     position: relative;
 }
 
@@ -43,11 +41,8 @@ body {
     color: #555555;
 }
 
-
 .menu-btn {
-  
     display: none;
-
     background: none;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -55,28 +50,19 @@ body {
     padding: 4px 10px;
     cursor: pointer;
     color: #333;
-
-    outline: none;
 }
 
 .mobile-menu {
-  
     display: none;
-
     position: absolute;
     top: 100%;
     right: 0;
-
     width: 220px;
-
     flex-direction: column;
-
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-top: none;
     border-radius: 0 0 0 8px;
-
-    z-index: 100;
 }
 
 .mobile-menu a {
@@ -92,9 +78,8 @@ body {
     color: #2563eb;
 }
 
-
 .menu-btn:focus + .mobile-menu {
-    display: flex;   
+    display: flex;
 }
 
 .hero {
@@ -112,8 +97,6 @@ body {
 .left h1 {
     font-size: 40px;
     margin-bottom: 16px;
-    color: #111111;
-    line-height: 1.2;
 }
 
 .left h1 span {
@@ -124,7 +107,6 @@ body {
     font-size: 17px;
     color: #555555;
     margin-bottom: 28px;
-    line-height: 1.6;
 }
 
 .cta-button {
@@ -133,7 +115,6 @@ body {
     color: #ffffff;
     border: none;
     border-radius: 8px;
-    font-size: 15px;
     cursor: pointer;
 }
 
@@ -145,7 +126,6 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .right img {
@@ -153,7 +133,6 @@ body {
     max-width: 420px;
     border-radius: 12px;
 }
-
 
 @media (max-width: 768px) {
 
